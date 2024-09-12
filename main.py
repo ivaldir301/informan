@@ -1,2 +1,5 @@
-if __name__ == "main":
-    print("PROJECT INFORMAN IS UP AND WORKING")
+def main():
+    if __name__ == "__main__":
+        print("PROJECT INFORMAN IS UP AND WORKING")
+
+main()
