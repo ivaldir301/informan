@@ -163,4 +163,6 @@ cython_debug/
 
 # Sqlite database main file
 informan.db
-informan_venv
+
+# Venv folder
+informan_venv/
