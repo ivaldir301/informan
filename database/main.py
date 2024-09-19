@@ -1,7 +1,13 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
+from dotenv import load_dotenv
+import os
 
-DATABASE_URL = "postgresql://postgres:123@localhost/informan"
+load_dotenv()
+
+DATABASE_URL:str = os.getenv("DATABASE_COMPLETE_URL")
+
+print(DATABASE_URL)
 
 engine = create_engine(DATABASE_URL)
 
