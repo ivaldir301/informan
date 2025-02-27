@@ -1,0 +1,6 @@
+**__pycache__
+.env
+logs/log_data.log
+page_logs/
+*.json
+.DS_Store
